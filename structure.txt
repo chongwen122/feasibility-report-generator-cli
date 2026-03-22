@@ -1,0 +1,11 @@
+feasibility-report-generator/
+├── README.md
+├── requirements.txt
+├── .env.example
+├── config.py
+├── sections.py               # 完整章节定义（已包含所有小节）
+├── llm_client.py             # LLM API 调用封装
+├── utils.py                  # 工具函数：文件提取、进度管理、Markdown转Word
+├── report_generator.py       # 主程序，支持 md / docx 输出
+└── sample_data/
+    └── sample_project_info.txt   # 示例项目信息
